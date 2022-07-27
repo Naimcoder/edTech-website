@@ -24,11 +24,50 @@ line-height: 1.5;
       .cover-tap {
                margin-bottom: 0px;
           }
+          .banner-title {
+               font-size: 25px;
+               line-height: 30px;
+          }
      .banner-text{
           white-space: nowrap;
                overflow: hidden;
                text-overflow: ellipsis;
      }
+.course-box {
+     flex-direction: column;
+}
 
-     } 
+.course-box img {
+     width: 100%;
+}
+
+.courses-title h3 {
+     font-size: 14px;
+
+}
+
+.courses-title p {
+     font-size: 13px;
+     text-align: justify;
+}
+
+br {
+     display: none;
+}
+}
+
+@media only screen and (min-width:800px) and (max-width:992px) {
+     .cover-tap {
+          margin-bottom: 0px;
+     }
+            .banner-text br{
+               display: none;
+            }
+            .courses-title p br{
+               display: none;
+            }
+     .banner-text {
+          text-align: justify;
+     }
+    }
      
