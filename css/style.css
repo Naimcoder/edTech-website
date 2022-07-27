@@ -1,0 +1,34 @@
+.cover-tap{
+   margin-bottom: 170px;
+}
+img{
+     max-width: 100%;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+}
+.banner-title{
+font-size: 2.5rem;
+line-height: 3.125rem;
+}
+.banner-subtitle{
+font-size: 1.875rem;
+line-height: 3.125rem;
+}
+text{
+font-size: 1rem;
+line-height: 1.5;
+}
+
+@media screen and (max-width:576px){
+      .cover-tap {
+               margin-bottom: 0px;
+          }
+     .banner-text{
+          white-space: nowrap;
+               overflow: hidden;
+               text-overflow: ellipsis;
+     }
+
+     } 
+     
