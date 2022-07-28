@@ -1,6 +1,6 @@
-.cover-tap{
+/* .cover-tap{
    margin-bottom: 170px;
-}
+} */
 img{
      max-width: 100%;
 }
@@ -12,22 +12,21 @@ body{
 
 /* mobile part media responsive start */
 @media screen and (max-width:576px){
-      .cover-tap {
-               margin-bottom: 0px;
-          }
-          .banner-title {
+
+          .banner-title{
                font-size: 25px;
                line-height: 30px;
+               margin-top: -55px;
           }
      .banner-text{
           white-space: nowrap;
-               overflow: hidden;
-               text-overflow: ellipsis;
+          overflow: hidden;
+          text-overflow: ellipsis;
      }
+
 .course-box {
      flex-direction: column;
 }
-
 .course-box img {
      width: 100%;
 }
@@ -72,9 +71,6 @@ br {
 
 /* tablet part media responsive start */
 @media only screen and (min-width:577px) and (max-width:992px) {
-     .cover-tap {
-          margin-bottom: 0px;
-     }
             .banner-text br{
                display: none;
             }
@@ -90,9 +86,7 @@ br {
           .modal-text {
                text-align: center;
           }
-                    .btn-info {
-                         display: none;
-              }
+              
           #companies{
                display: none;
           }
