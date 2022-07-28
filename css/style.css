@@ -54,9 +54,28 @@ line-height: 1.5;
 br {
      display: none;
 }
+.Explore-body {
+     margin: 0;
+     padding: 0;
+}
+.modal-left {
+     margin: 0 auto;
+     padding: 0;
+     margin: 0;
 }
 
-@media only screen and (min-width:800px) and (max-width:992px) {
+.modal-text {
+     text-align: center;
+     padding: 0;
+     margin: 0;
+}
+
+.hidden-btn {
+     display: none;
+}
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
      .cover-tap {
           margin-bottom: 0px;
      }
@@ -69,5 +88,11 @@ br {
      .banner-text {
           text-align: justify;
      }
-    }
+          .modal-left {
+               margin: 0 auto;
+     
+          .modal-text {
+               text-align: center;
+          }
+          }
      

@@ -218,8 +218,11 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="text-center py-5">
-                              <button class="btn btn-info text-white  rounded-1 fst-normal fw-semibold fs-5 py-3 px-5 cover-tap">See More Courses</button>
+                          <div class="hidden-tow text-center pt-4">
+                              <button class="btn btn-info text-white  rounded-1 fst-normal fw-semibold fs-5 py-3 px-5 cover-tap d-lg-none">view all</button>
+                         </div> 
+                         <div class="hidden-btn text-center">
+                              <button class="btn btn-info text-white  rounded-1 fst-normal fw-semibold fs-5 py-3 px-5 cover-tap d-md-none">See More Courses</button>
                          </div>
                    </div>
                </div>
@@ -229,12 +232,37 @@
 
           <!-- ==================================================== -->
           <!-- Explore part start -->
-          <section id="Explore" class="bg-light mb-5">
-           <div class="container">
+          <section id="Explore" class="mb-5">
+           <div class="container bg-light py-2">
                <div class="row">
-                    <div class="col-lg-6 col-md-12 col">
-                         <div class="explore-img">
-                              <img src="" alt="">
+                     <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
+                              <img src="images/working.png" alt="">
+                    </div> 
+                    <div class="col-lg-6 col-md-6">
+                         <div class="Explore-body  pt-5 pb-5 mt-5 fw-semibold">
+                              <h3 class="Explore-title py-4 text-dark">Explore The elearning Institute</h3>
+                              <p class="Explore-text text-muted lh-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                              by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
+                              Lorem Ipsum, you need to be sure.</p>
+                              <p class="Explore-text text-muted lh-lg">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+                              predefined.</p>
+                              <div class="Explore-start d-flex justify-content-between align-items-center gap-1 py-4 flex-wrap">
+                                   <div class="item">
+                                        <h3 class="h2 fw-bold text-dark">3.2K+</h3>
+                                        <p>Online Course</p>
+                                   </div>
+                                   <div class="item">
+                                        <h3 class="h2 fw-bold text-dark">600+</h3>
+                                        <p>Expert member</p>
+                                   </div>
+                                   <div class="item">
+                                        <h3 class="h2 fw-bold text-dark">1K+</h3>
+                                        <p>Rating & Review</p>
+                                   </div>
+                                  
+                              </div>
+                              <button class="btn btn-info text-white  rounded-1 fst-normal fw-semibold fs-5 py-3 px-5 cover-tap">read
+                                   more</button>
                          </div>
                     </div>
                </div>
@@ -245,8 +273,60 @@
 
           <!-- ==================================================== -->
           <!-- modals part start -->
-          <section id="modals" class="">
-
+          <section id="modals" class=" ">
+            <div class="container bg-warning p-5 rounded-2">
+               <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                         <div class="modal-text p-4">
+                              <h1 class="text-white h1 fw-bold">Ready to join?</h1>
+                              <p class=" py-2 fs-5 text-dark">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                              layout.</p>
+                         </div>
+                    </div>
+                    <div class="col-lg-6 .col-md-12 d-flex align-items-center justify-content-end">
+                         <div class="modal-left p-3">
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-primary battn-modal text-white text-center  rounded-1 fst-normal fw-semibold fs-6 py-3 px-5 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                   Register Now
+                              </button>
+                              
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog">
+                                        <div class="modal-content">
+                                             <div class="modal-header">
+                                                  <h5 class="modal-title" id="exampleModalLabel">Register form</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                             </div>
+                                             <div class="modal-body">
+                                                  <form>
+                                                       <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                       </div>
+                                                       <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                       </div>
+                                                       <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                       </div>
+                                                       <button type="submit" class="btn btn-primary">Submit</button>
+                                                  </form>
+                                             </div>
+                                             <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+            </div>
           </section>
           <!-- modals part end -->
           <!-- ==================================================== -->
@@ -254,7 +334,7 @@
           <!-- ==================================================== -->
           <!-- Students part start -->
           <section id="Students" class="">
-
+            
           </section>
           <!-- Students part end -->
           <!-- ==================================================== -->
