@@ -73,6 +73,9 @@ br {
 .hidden-btn {
      display: none;
 }
+ #companies {
+      display: none;
+ }
 }
 
 @media only screen and (min-width:577px) and (max-width:992px) {
@@ -90,9 +93,16 @@ br {
      }
           .modal-left {
                margin: 0 auto;
-     
+          }
           .modal-text {
                text-align: center;
           }
+                    .btn-info {
+                         display: none;
+              }
+          #companies{
+               display: none;
           }
+          
+}
      
